@@ -1,0 +1,52 @@
+.form2{
+   
+    text-align: center;
+    position: relative;
+    left: -80px;
+    }
+
+.form1{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    justify-content: center;
+    left: 120px;
+   
+}
+
+.fieldset{
+    border-radius: 10px;
+    border-color: #1d0f42;
+    height: 100px;
+    
+}
+
+.nome{
+    position:relative;
+    top: 10px;
+}
+
+.email{
+    position: relative;
+    top:25px;
+    
+}
+
+.cadastro{
+    position: relative;
+    top: 32px;
+    background-color: #1d0f42;
+    color: lightblue;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    border:none;
+    border-radius: 8px;
+    width: 100px;
+    height: 20px;
+}
+
+.formComplete{
+    display: none;
+   position:absolute;
+}
