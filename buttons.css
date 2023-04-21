@@ -1,47 +1,41 @@
-#buttons{ 
-    position:absolute;
-    display: none;
-    padding: 20px;
-    margin: 20px;
+#buttons {
+  position: absolute;
+  display: none;
+  padding: 20px;
+  margin: 20px;
+}
+.flex-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1d0f42;
+  color: lightblue;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
+}
+.sub {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1d0f42;
+  color: lightblue;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
 }
 
-#btn1{
-    background-color: #1d0f42;
-    color: lightblue;
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    padding: 10px;
-    border:none;
-    border-radius: 8px;
-    margin: 20px;
-}
-
-#btn2{
-    background-color: #1d0f42;
-    color: lightblue;
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    padding: 10px;
-    border:none;
-    border-radius: 8px;
-    margin: 20px;
-}
-
-#btn3{
-    background-color: #1d0f42;
-    color: lightblue;
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    padding: 10px;
-    border:none;
-    border-radius: 8px;
-    margin: 20px;
-}
-
-
-#btn1:hover{
-    background-color:aqua;
+.btn:hover {
+  background-color: aqua;
 }
