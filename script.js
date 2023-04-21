@@ -103,11 +103,11 @@ function playMeow() {
     "meow1.wav",
     "meow2.wav",
     "meow3.wav",
-    "meow4.wav",
-    "meow5.wav",
+    "meow4.mp3",
+    "meow5.mp3",
   ];
   let randomAudio = audios[Math.floor(Math.random() * 5)];
-  
+
   let audio = new Audio("./audio/" + randomAudio);
   audio.play();
 }
