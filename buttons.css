@@ -35,12 +35,20 @@
   border-radius: 8px;
   margin: 20px;
 }
+.subButtons {
+  display: flex;
+  flex-wrap: wrap;
+}
 .subButton {
   display: none;
 }
 .subButton.ativo {
-  display: block;
+  display: flex;
+  position: absolute;
+  margin-left: -440px;
+  
 }
+
 .btn:hover {
   background-color: aqua;
 }
