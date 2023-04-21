@@ -97,3 +97,21 @@ botoes.forEach((botao) => {
     subBtn.classList.add("ativo");
   });
 });
+
+function playMeow() {
+  let audios = [
+    "meow1.wav",
+    "meow2.wav",
+    "meow3.wav",
+    "meow4.wav",
+    "meow5.wav",
+  ];
+  let randomAudio = audios[Math.floor(Math.random() * 5)];
+  
+  let audio = new Audio("./audio/" + randomAudio);
+  audio.play();
+}
+const catIcon = document.querySelectorAll(".icon-cat");
+catIcon.forEach((item) => {
+  item.addEventListener("click", playMeow);
+});
