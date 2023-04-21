@@ -35,7 +35,12 @@
   border-radius: 8px;
   margin: 20px;
 }
-
+.subButton {
+  display: none;
+}
+.subButton.ativo {
+  display: block;
+}
 .btn:hover {
   background-color: aqua;
 }
