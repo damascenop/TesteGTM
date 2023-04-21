@@ -21,104 +21,79 @@ joy.addEventListener("click", (e) => {
   buttons.style.display = "flex";
   formComplete.style.display = "none";
   h1.style.display = "none";
-  
+  removerSubBtn();
 });
 
 form.addEventListener("click", (e) => {
   formComplete.style.display = "flex";
   buttons.style.display = "none";
   h1.style.display = "none";
+  removerSubBtn();
 });
 
 home.addEventListener("click", (e) => {
   location.reload();
 });
 
-    const bt1 = document.getElementById("bt1");
-    const AnaS = document.getElementById("AnaS");
-    const allButtons = document.getElementById("buttons")
-    const AnaLuizaDiv = document.getElementById('AnaLuiza');
-    const AnaCDiv = document.getElementById('AnaC');
-    const ViniciusADiv = document.getElementById('ViniciusA');
-    const MarcosVDiv = document.getElementById('MarcosV');
-    const GabrielaSDiv = document.getElementById('GabrielaS');
-    const CamilaVDiv = document.getElementById('CamilaV');
-    const RuthCDiv = document.getElementById('RuthC');
-    const MariaCDiv = document.getElementById('MariaC');
-    const SidcleaFDiv = document.getElementById('SidcleaF');
-    const BiancaADiv = document.getElementById('BiancaA');
-    const EvelinRDiv = document.getElementById('EvelinR');
-    const GustavoADiv = document.getElementById('GustavoA');
-    const LuisFDiv = document.getElementById('LuisF');
-    
-    
+function removerSubBtn() {
+  const subBotoes = document.querySelectorAll(".subButton");
+  subBotoes.forEach((subBotao) => {
+    subBotao.classList.remove("ativo");
+  });
+}
 
-  bt1.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    AnaS.style.display = "block";
+const botoes = document.querySelectorAll(".btn");
+const totalBtn = document.querySelector(".buttons");
+botoes.forEach((botao) => {
+  botao.addEventListener("click", function () {
+    totalBtn.style.display = "none";
+    console.log(botao.innerText);
+    let subBtnAtualString;
+    switch (botao.innerText) {
+      case "Ana Sarah":
+        subBtnAtualString = ".sub1";
+        break;
+      case "Ana Luiza":
+        subBtnAtualString = ".sub2";
+        break;
+      case "Ana Carolina":
+        subBtnAtualString = ".sub3";
+        break;
+      case "Vinicius Aranda":
+        subBtnAtualString = ".sub4";
+        break;
+      case "Marcos Vinicius":
+        subBtnAtualString = ".sub5";
+        break;
+      case "Gabriela Sardoux":
+        subBtnAtualString = ".sub6";
+        break;
+      case "Camila Vitória":
+        subBtnAtualString = ".sub7";
+        break;
+      case "Ruth Catão":
+        subBtnAtualString = ".sub8";
+        break;
+      case "Maria Clara":
+        subBtnAtualString = ".sub9";
+        break;
+      case "Sidclea Florencio":
+        subBtnAtualString = ".sub10";
+        break;
+      case "Bianca Andrade":
+        subBtnAtualString = ".sub11";
+        break;
+      case "Evelin Rodrigues":
+        subBtnAtualString = ".sub12";
+        break;
+      case "Gustavo Aparecido":
+        subBtnAtualString = ".sub13";
+        break;
+      case "Luís Felipe":
+        subBtnAtualString = ".sub14";
+        break;
+    }
+    const subBtn = document.querySelector(subBtnAtualString);
+    subBtn.classList.add("ativo");
   });
-
-  bt2.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    AnaLuiza.style.display = "block";
-  });
-  
-  bt3.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    AnaC.style.display = "block";
-  });
-  
-  bt4.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    ViniciusA.style.display = "block";
-  });
-  
-  bt5.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    MarcosV.style.display = "block";
-  });
-  
-  bt6.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    GabrielaS.style.display = "block";
-  });
-  
-  bt7.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    CamilaV.style.display = "block";
-  });
-  
-  bt8.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    RuthC.style.display = "block";
-  });
-  
-  bt9.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    MariaC.style.display = "block";
-  });
-  
-  bt10.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    SidcleaF.style.display = "block";
-  });
-  
-  bt11.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    BiancaA.style.display = "block";
-  });
-  
-  bt12.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    EvelinR.style.display = "block";
-  });
-  
-  bt13.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    GustavoA.style.display = "block";
-  });
-  
-  bt14.addEventListener("click", () => {
-    allButtons.style.display = "none";
-    LuisF.style.display = "block";
-  });
+});
