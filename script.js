@@ -53,7 +53,7 @@ botoes.forEach((botao) => {
       case "Ana Sarah":
         subBtnAtualString = ".sub1";
         break;
-      case "Ana Luiza":
+      case "Ana Luísa":
         subBtnAtualString = ".sub2";
         break;
       case "Ana Carolina":
@@ -62,10 +62,10 @@ botoes.forEach((botao) => {
       case "Vinicius Aranda":
         subBtnAtualString = ".sub4";
         break;
-      case "Marcos Vinicius":
+      case "Marcos Vinícius":
         subBtnAtualString = ".sub5";
         break;
-      case "Gabriela Sardoux":
+      case "Gabriella Sardoux":
         subBtnAtualString = ".sub6";
         break;
       case "Camila Vitória":
@@ -77,10 +77,10 @@ botoes.forEach((botao) => {
       case "Maria Clara":
         subBtnAtualString = ".sub9";
         break;
-      case "Sidclea Florencio":
+      case "Sidcléa Florenio":
         subBtnAtualString = ".sub10";
         break;
-      case "Bianca Andrade":
+      case "Bianca Manfredi":
         subBtnAtualString = ".sub11";
         break;
       case "Evelin Rodrigues":
@@ -89,7 +89,7 @@ botoes.forEach((botao) => {
       case "Gustavo Aparecido":
         subBtnAtualString = ".sub13";
         break;
-      case "Luís Felipe":
+      case "Luiz Felipe":
         subBtnAtualString = ".sub14";
         break;
     }
