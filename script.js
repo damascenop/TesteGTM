@@ -50,47 +50,68 @@ botoes.forEach((botao) => {
     console.log(botao.innerText);
     let subBtnAtualString;
     switch (botao.innerText) {
-      case "Ana Sarah":
+      case "Henrique Gabriel":
         subBtnAtualString = ".sub1";
         break;
-      case "Ana Luísa":
+      case "João Guilherme":
         subBtnAtualString = ".sub2";
         break;
-      case "Ana Carolina":
+      case "Kayuan Rennan":
         subBtnAtualString = ".sub3";
         break;
-      case "Vinicius Aranda":
+      case "Maria Clara":
         subBtnAtualString = ".sub4";
         break;
-      case "Marcos Vinícius":
+      case "Vitor Mackert":
         subBtnAtualString = ".sub5";
         break;
-      case "Gabriella Sardoux":
+      case "Augusto Bosco":
         subBtnAtualString = ".sub6";
         break;
-      case "Camila Vitória":
+      case "Colyana Magalhaes":
         subBtnAtualString = ".sub7";
         break;
-      case "Ruth Catão":
+      case "Giovana Soares":
         subBtnAtualString = ".sub8";
         break;
-      case "Maria Clara":
+      case "Izael De Araujo":
         subBtnAtualString = ".sub9";
         break;
-      case "Sidcléa Florenio":
+      case "Jose Renato":
         subBtnAtualString = ".sub10";
         break;
-      case "Bianca Manfredi":
+      case "Cinthia Rocha":
         subBtnAtualString = ".sub11";
         break;
-      case "Evelin Rodrigues":
+      case "João Vitor":
         subBtnAtualString = ".sub12";
         break;
-      case "Gustavo Aparecido":
+      case "Layla Michelline":
         subBtnAtualString = ".sub13";
         break;
-      case "Luiz Felipe":
+      case "Lorena Saldanha":
         subBtnAtualString = ".sub14";
+        break;
+      case "Nelson Jose":
+         subBtnAtualString = ".sub15";
+        break;
+      case "Kayane Martins":
+        subBtnAtualString = ".sub16";
+        break;
+      case "Vitor Feijo":
+        subBtnAtualString = ".sub17";
+        break;
+      case "Wanderson Nogueira":
+        subBtnAtualString = ".sub18";
+        break;
+      case "Beatriz Gonçalves":
+        subBtnAtualString = ".sub19";
+        break;
+      case "Millena Monteiro":
+        subBtnAtualString = ".sub20";
+        break;
+      case "Nathalia De Souza":
+        subBtnAtualString = ".sub21";
         break;
     }
     const subBtn = document.querySelector(subBtnAtualString);
