@@ -135,3 +135,46 @@ body {
   background-color: black;
 }
 
+.GuilhermeGalvao{
+  background-color: #000000;
+  color: #FFF;
+  font-weight: bold;
+  
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  padding: 14px;
+  margin-left: 10px;
+
+  transition: all 3s;
+
+  
+}
+@keyframes rodandoAnim {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+@keyframes saiAndando {
+  from{
+    transform: translateX(0px);
+    display: block;
+  }
+  to{
+    transform: translateX(800px);
+    display: none;
+  }
+  
+}
+
+.GuilhermeGalvao:hover{
+  cursor: pointer;
+  animation: rodandoAnim 1s forwards;
+
+}
+.GuilhermeGalvao.clicked{
+  animation: saiAndando .2s forwards;
+}

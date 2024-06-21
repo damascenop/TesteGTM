@@ -6,6 +6,11 @@ var form = document.querySelector(".form");
 var formComplete = document.querySelector(".formComplete");
 var home = document.querySelector(".home");
 var h1 = document.querySelector(".h1");
+var guilhermeBtn = document.querySelector(".GuilhermeGalvao");
+
+guilhermeBtn.addEventListener("click",function(){
+  guilhermeBtn.classList.toggle('clicked');
+})
 
 allLi.forEach((li, index) => {
   li.addEventListener("mouseover", (e) => {
