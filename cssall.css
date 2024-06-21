@@ -100,7 +100,10 @@ body {
   box-shadow: 0 10px 0 #7d2ae8;
 }
 
-.h1 {
+.h1 , .creditosCapacitacao{
   position: absolute;
   font-family: fantasy;
+}
+.creditosCapacitacao{
+  bottom: 100px;
 }
