@@ -107,3 +107,39 @@ body {
 .creditosCapacitacao{
   bottom: 100px;
 }
+
+@keyframes backgroundColorChange {
+  0% { background-color: red; }
+  20% { background-color: orange; }
+  40% { background-color: yellow; }
+  60% { background-color: green; }
+  80% { background-color: blue; }
+  100% { background-color: purple; }
+}
+
+@keyframes borderColorChange {
+  0% { border-color: red; }
+  20% { border-color: orange; }
+  40% { border-color: yellow; }
+  60% { border-color: green; }
+  80% { border-color: blue; }
+  100% { border-color: purple; }
+}
+
+@keyframes textColorChange {
+  0% { color: red; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: green; }
+  80% { color: blue; }
+  100% { color: purple; }
+}
+
+.GabrielDamasceno {
+  animation: backgroundColorChange 6s infinite, borderColorChange 4s infinite, textColorChange 8s infinite;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 50px; 
+  cursor: pointer;
+}
+
