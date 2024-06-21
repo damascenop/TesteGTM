@@ -108,15 +108,6 @@ body {
   bottom: 100px;
 }
 
-@keyframes backgroundColorChange {
-  0% { background-color: red; }
-  20% { background-color: orange; }
-  40% { background-color: yellow; }
-  60% { background-color: green; }
-  80% { background-color: blue; }
-  100% { background-color: purple; }
-}
-
 @keyframes borderColorChange {
   0% { border-color: red; }
   20% { border-color: orange; }
@@ -136,10 +127,11 @@ body {
 }
 
 .GabrielDamasceno {
-  animation: backgroundColorChange 6s infinite, borderColorChange 4s infinite, textColorChange 8s infinite;
+  animation: borderColorChange 4s infinite, textColorChange 8s infinite;
   padding: 10px 20px;
   border: 2px solid;
   border-radius: 50px; 
   cursor: pointer;
+  background-color: black;
 }
 
