@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.btn {
+#buttons button {
   display: flex;
   flex-wrap: wrap;
   background-color: #1d0f42;
@@ -22,7 +22,7 @@
   border-radius: 8px;
   margin: 20px;
 }
-.sub {
+.subButton button {
   display: flex;
   flex-wrap: wrap;
   background-color: #1d0f42;

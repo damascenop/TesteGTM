@@ -42,7 +42,7 @@ function removerSubBtn() {
   });
 }
 
-const botoes = document.querySelectorAll(".btn");
+const botoes = document.querySelectorAll("#buttons button");
 const totalBtn = document.querySelector(".buttons");
 botoes.forEach((botao) => {
   botao.addEventListener("click", function () {
@@ -112,6 +112,9 @@ botoes.forEach((botao) => {
         break;
       case "Nathalia De Souza":
         subBtnAtualString = ".sub21";
+        break;
+      case "Lucas Vieira":
+        subBtnAtualString = ".sub22";
         break;
     }
     const subBtn = document.querySelector(subBtnAtualString);
